@@ -38,6 +38,14 @@ For more information on how to set up a transformation block, please head to Edg
       <td>Python</td>
       <td><a href="https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset" target="_blank">luisomoreau/ei_fetch_kaggle_dataset:v1</a></td>
     </tr>
+    <tr>
+      <td><a href="/create-graphs-standalone/">Create graphs standalone</a></td>
+      <td>Generate a helper graph from sensor CSV</td>
+      <td>Standalone</td>
+      <td>Python</td>
+      <td></td>
+    </tr>
+    
   </tbody>
 </table>
 
