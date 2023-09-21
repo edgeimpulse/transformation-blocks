@@ -1,12 +1,31 @@
 # Transformation block examples
 
-This repository contains example of transformation blocks.
+This repository contains examples of Edge Impulse transformation blocks.
 
 For more information on how to set up a transformation block, please head to Edge Impulse documentation, [Custom blocks -> Transformation blocks](https://docs.edgeimpulse.com/docs/edge-impulse-studio/organizations/custom-blocks/transformation-blocks)
 
 ## Examples
 
-To use the following examples, a README.md instruction file will be provided inside the example repositories. Sometimes, a public docker image will also be provided to quickly test so you don't need to import it and clone the entire repository.
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Programming language</th>
+      <th>Public docker image (optional)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/hello-edge/">Hello Edge</a></td>
+      <td>print <code>hello +name</code> on the transformation job logs</td>
+      <td>Bash</td>
+      <td><a href="https://hub.docker.com/r/luisomoreau/hello_edge" target="_blank">luisomoreau/hello_edge:latest</a></td>
+    </tr>
+  </tbody>
+</table>
+
+To use the examples, a README.md instruction file will be provided inside the example repositories. Sometimes, a public docker image will also be provided to quickly test so you don't need to import it and clone the entire repository.
 
 To modify the code and push the blocks to your organization, you will need to use [Edge Impulse CLI](https://docs.edgeimpulse.com/docs/tools/edge-impulse-cli).
 
