@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Sensor",
+        "type": "string",
+        "param": "sensor_name",
+        "value": "Accelerometer",
+        "help": "Sensor data to extract to create the graph, this should match the name of the file"
+    },
+    {
+        "name": "Bucket",
+        "type": "bucket",
+        "param": "bucket_name",
+        "value": "",
+        "help": "Bucket where your dataset is hosted"
+    },
+    {
+        "name": "Path in bucket",
+        "value": "",
+        "type": "string",
+        "param": "bucket_directory",
+        "help": "Directory in your bucket where your dataset is hosted"
+    }
+]

@@ -13,4 +13,4 @@ RUN pip3 --no-cache-dir install -r requirements.txt
 
 COPY . ./
 
-ENTRYPOINT [ "python3", "fetch.py" ]
+ENTRYPOINT [ "python3",  "transform.py" ]
