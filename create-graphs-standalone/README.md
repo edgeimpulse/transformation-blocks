@@ -1,6 +1,8 @@
 # Create graphs from sensors CSV file (Python)
 
-This transformation block takes Kaggle owner/dataset arguments to fetch it and store it in your [organizational datasets](https://docs.edgeimpulse.com/docs/edge-impulse-studio/organizations/data).
+This transformation block generate graphs from sensor CSV files.
+
+The dataset used to test this transformation is accessible here: [https://www.kaggle.com/datasets/luisomoreau/activity-detection](https://www.kaggle.com/datasets/luisomoreau/activity-detection).
 
 Input parameters:
 

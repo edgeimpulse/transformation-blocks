@@ -65,7 +65,7 @@ python3 fetch.py --kaggle_dataset owner/dataset-slug --bucket_name output
 
 ## Run job
 
-![Create the job](/assets/fetch-kaggle-dataset/create-transformation-job.png)
+![Create the job](/assets/fetch-kaggle-dataset/create-transformation-job-2.png)
 
 ## Additional info
 
