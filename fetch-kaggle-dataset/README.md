@@ -23,21 +23,16 @@ Run the script:
 python3 fetch.py --kaggle_dataset owner/dataset-slug --bucket_name output
 ```
 
-## How to run (Edge Impulse)
+## How to setup
 
 1. Clone this repository:
 
     ```
-    git clone 
+    git clone https://github.com/edgeimpulse/transformation-blocks.git
+    cd transformation-blocks/fetch-kaggle-dataset
     ```
 
-2. Environment variables/Secrets
-
-    You will need to set your `KAGGLE_USERNAME` and `KAGGLE_KEY` in your Transformation blocks' secrets:
-
-    ![Transformation block overview](/assets/fetch-kaggle-dataset/transformation-blocks-overview.png)
-
-3. Create a new transformation block:
+2. Create a new transformation block:
 
     ```
     $ edge-impulse-blocks init
@@ -52,12 +47,26 @@ python3 fetch.py --kaggle_dataset owner/dataset-slug --bucket_name output
     ? Would you like to download and load the example repository? no
     ```
 
-4. Push the block:
+3. Push the block:
 
     ```
     $ edge-impulse-blocks push
     ```
 
+4. Environment variables/Secrets
+
+    You will need to set your `KAGGLE_USERNAME` and `KAGGLE_KEY` in your Transformation blocks' secrets:
+
+    ![Transformation block overview](/assets/fetch-kaggle-dataset/transformation-blocks-overview.png)
+
+5. Overview
+
+    ![Block overview](/assets/fetch-kaggle-dataset/fetch-kaggle-dataset-transformation-overview.png)
+
 ## Run job
 
 ![Create the job](/assets/fetch-kaggle-dataset/create-transformation-job.png)
+
+## Additional info
+
+There is also a public image of this block: [luisomoreau/ei_fetch_kaggle_dataset:v1](https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset)

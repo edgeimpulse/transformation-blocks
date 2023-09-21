@@ -18,11 +18,18 @@ For more information on how to set up a transformation block, please head to Edg
   </thead>
   <tbody>
     <tr>
-      <td><a href="/hello-edge/">Hello Edge</a></td>
-      <td>print <code>hello +name</code> on the transformation job logs</td>
+      <td><a href="/fetch-kaggle-dataset/">Fetch Kaggle Dataset</a></td>
+      <td>Import a dataset hosted on Kaggle to your bucket</td>
       <td>Standalone</td>
-      <td>Bash</td>
-      <td><a href="https://hub.docker.com/r/luisomoreau/hello_edge" target="_blank">luisomoreau/hello_edge:latest</a></td>
+      <td>Python</td>
+      <td><a href="https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset" target="_blank">luisomoreau/ei_fetch_kaggle_dataset:v1</a></td>
+    </tr>
+     <tr>
+      <td><a href="/utils-access-data/">Utils - Access data</a></td>
+      <td>Utility example to explain how to access data</td>
+      <td>Standalone | Data item | File</td>
+      <td>Python</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/fetch-kaggle-dataset/">Fetch Kaggle Dataset</a></td>

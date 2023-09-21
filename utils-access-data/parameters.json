@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Bucket",
+        "type": "bucket",
+        "param": "bucket_name",
+        "value": "",
+        "help": "Bucket where your dataset is hosted"
+    },
+    {
+        "name": "Path in bucket",
+        "value": "",
+        "type": "string",
+        "param": "bucket_directory",
+        "help": "Directory in your bucket where your dataset is hosted"
+    },
+    {
+        "name": "File to copy",
+        "value": "",
+        "type": "string",
+        "param": "file_name",
+        "help": "Filename + extension that needs to be copied to the output directory"
+    }
+]
