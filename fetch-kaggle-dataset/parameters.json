@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Kaggle dataset",
+        "type": "string",
+        "param": "kaggle_dataset",
+        "value": "",
+        "help": "owner/dataset-slug"
+    },
+    {
+        "name": "Output bucket",
+        "type": "bucket",
+        "param": "bucket_name",
+        "value": "",
+        "help": "The bucket where you will store the fetched dataset"
+    },
+    {
+        "name": "Output bucket path",
+        "value": "kaggle-original-dataset/",
+        "type": "string",
+        "param": "bucket_directory",
+        "help": "The prefix in the output bucket"
+    }
+]

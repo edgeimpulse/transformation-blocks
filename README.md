@@ -11,6 +11,7 @@ For more information on how to set up a transformation block, please head to Edg
     <tr>
       <th>Name</th>
       <th>Description</th>
+      <th>Mode</th>
       <th>Programming language</th>
       <th>Public docker image (optional)</th>
     </tr>
@@ -19,8 +20,16 @@ For more information on how to set up a transformation block, please head to Edg
     <tr>
       <td><a href="/hello-edge/">Hello Edge</a></td>
       <td>print <code>hello +name</code> on the transformation job logs</td>
+      <td>Standalone</td>
       <td>Bash</td>
       <td><a href="https://hub.docker.com/r/luisomoreau/hello_edge" target="_blank">luisomoreau/hello_edge:latest</a></td>
+    </tr>
+    <tr>
+      <td><a href="/fetch-kaggle-dataset/">Fetch Kaggle Dataset</a></td>
+      <td>Import a dataset hosted on Kaggle to your bucket</td>
+      <td>Standalone</td>
+      <td>Python</td>
+      <td><a href="https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset" target="_blank">luisomoreau/ei_fetch_kaggle_dataset:v1</a></td>
     </tr>
   </tbody>
 </table>
