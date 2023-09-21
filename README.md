@@ -45,6 +45,13 @@ For more information on how to set up a transformation block, please head to Edg
       <td>Python</td>
       <td></td>
     </tr>
+    <tr>
+      <td><a href="/resample-csv/">Resample CSV</a></td>
+      <td>Upsample or downsample CSV files with a constant frequency</td>
+      <td>File</td>
+      <td>Python</td>
+      <td></td>
+    </tr>
     
   </tbody>
 </table>

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Sampling rate (ms)",
+        "type": "int",
+        "param": "sampling_rate",
+        "value": "",
+        "help": "Sampling rate in milliseconds"
+    },
+    {
+        "name": "Resampling mode",
+        "type": "select",
+        "valid": [
+            "mean",
+            "median"
+        ],
+        "param": "resampling_mode",
+        "value": "",
+        "help": "Resampling mode"
+    }
+]
