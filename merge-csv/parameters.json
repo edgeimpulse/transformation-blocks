@@ -1,0 +1,48 @@
+[
+    {
+        "name": "CSV files",
+        "type": "string",
+        "param": "files",
+        "value": "",
+        "help": "CSV files to merge, separated by coma"
+    },
+    {
+        "name": "Merge key",
+        "type": "string",
+        "param": "key",
+        "value": "",
+        "help": "CSV files to merge, separated by coma"
+    },
+    {
+        "name": "Join method",
+        "type": "select",
+        "valid": [
+            "outer",
+            "inner",
+            "left",
+            "right"
+        ],
+        "param": "join",
+        "value": "outer",
+        "help": "How to join the files"
+    },
+    {
+        "name": "Define custom filename",
+        "value": false,
+        "type": "boolean",
+        "param": "rename",
+        "help": "By default, the first word of the folder will be used"
+    },
+    {
+        "name": "filename",
+        "value": "merged",
+        "type": "string",
+        "param": "filename",
+        "help": "filename without extension",
+        "showIf": {
+            "parameter": "rename",
+            "operator": "eq",
+            "value": "true"
+        }
+    }
+]

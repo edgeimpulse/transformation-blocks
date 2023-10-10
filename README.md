@@ -39,9 +39,16 @@ For more information on how to set up a transformation block, please head to Edg
       <td><a href="https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset" target="_blank">luisomoreau/ei_fetch_kaggle_dataset:latest</a></td>
     </tr>
     <tr>
-      <td><a href="/create-graphs-standalone/">Create graphs standalone</a></td>
+      <td><a href="/create-graphs/">Create graphs</a></td>
       <td>Generate a helper graph from sensor CSV</td>
       <td>Standalone</td>
+      <td>Python</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/merge-csv/">Merge CSV</a></td>
+      <td>Merge csv files on a given key</td>
+      <td>File</td>
       <td>Python</td>
       <td></td>
     </tr>

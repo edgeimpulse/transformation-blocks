@@ -4,8 +4,8 @@ import numpy as np
 
 # Set the arguments
 parser = argparse.ArgumentParser(description='Organization transformation block')
-parser.add_argument('--in_file', type=str, required=True, help="Argument passed by Edge Impulse transformation block when the --in-file option is selected")
-parser.add_argument('--out_directory', type=str, required=False, help="Argument passed by Edge Impulse transformation block when the --out-directory option is selected")
+parser.add_argument('--in-file', type=str, required=True, help="Argument passed by Edge Impulse transformation block when the --in-file option is selected")
+parser.add_argument('--out-directory', type=str, required=False, help="Argument passed by Edge Impulse transformation block when the --out-directory option is selected")
 parser.add_argument('--sampling_rate', type=int, required=True, help="Sampling rate in milliseconds")
 parser.add_argument('--resampling_mode', type=str, required=False, help="Resampling mode, by default mean")
 
