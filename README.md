@@ -43,21 +43,21 @@ For more information on how to set up a transformation block, please head to Edg
       <td>Generate a helper graph from sensor CSV</td>
       <td>Standalone</td>
       <td>Python</td>
-      <td></td>
+      <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_create-graphs" target="_blank">luisomoreau/ei-transform_create-graphs</td>
     </tr>
     <tr>
       <td><a href="/merge-csv/">Merge CSV</a></td>
-      <td>Merge csv files on a given key</td>
+      <td>Merge CSV files on a given key</td>
       <td>File</td>
       <td>Python</td>
-      <td></td>
+      <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_merge-csv" target="_blank">luisomoreau/ei-transform_merge-csv</td>
     </tr>
     <tr>
       <td><a href="/resample-csv/">Resample CSV</a></td>
       <td>Upsample or downsample CSV files with a constant frequency</td>
       <td>File</td>
       <td>Python</td>
-      <td></td>
+      <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_resample-csv" target="_blank">luisomoreau/ei-transform_resample-csv</td>
     </tr>
     
   </tbody>

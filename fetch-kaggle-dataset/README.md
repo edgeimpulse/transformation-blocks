@@ -59,7 +59,35 @@ python3 fetch.py --kaggle_dataset owner/dataset-slug --bucket_name output
 
     ![Transformation block overview](/assets/fetch-kaggle-dataset/transformation-blocks-overview.png)
 
-5. Overview
+5. Parameters - These should be set by `edge-impulse-block` CLI:
+
+    ```
+    [
+        {
+            "name": "Kaggle dataset",
+            "type": "string",
+            "param": "kaggle_dataset",
+            "value": "",
+            "help": "owner/dataset-slug"
+        },
+        {
+            "name": "Output bucket",
+            "type": "bucket",
+            "param": "bucket_name",
+            "value": "",
+            "help": "The bucket where you will store the fetched dataset"
+        },
+        {
+            "name": "Output bucket path",
+            "value": "kaggle-original-dataset/",
+            "type": "string",
+            "param": "bucket_directory",
+            "help": "The prefix in the output bucket"
+        }
+    ]
+    ```
+
+6. Overview
 
     ![Block overview](/assets/fetch-kaggle-dataset/fetch-kaggle-dataset-transformation-overview.png)
 
