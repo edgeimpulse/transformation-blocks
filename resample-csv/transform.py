@@ -26,6 +26,10 @@ if args.in_file:
 
         # Read csv
         df = pd.read_csv(args.in_file)
+        # Convert the 'time' column to a datetime format
+        df['time'] = pd.to_datetime(df['time'], unit='ns')
+        # Set the 'time' column as the index
+        df.set_index('time', inplace=True)
 
         # First diagnose the sampling rate
         consecutive_deltas = df['seconds_elapsed'].diff()
@@ -43,7 +47,7 @@ if args.in_file:
 
         # Now resample
         print("Resampling ...", flush=True)
-        df.index = pd.to_datetime(df['time'], unit='ns')
+        
         sampling_rate = str(args.sampling_rate)+'ms'
         
         if args.resampling_mode == 'mean':
@@ -63,10 +67,10 @@ if args.in_file:
             df_resampled = df_resampled.interpolate(method='polynomial', order=1)
 
         # Save resampled file
-        df_resampled.to_csv(os.path.join(args.out_directory, os.path.basename(args.in_file)), index=False)
+        df_resampled.to_csv(os.path.join(args.out_directory, os.path.basename(args.in_file)))
         print("... Done", flush=True)
-        # Diagnose the output file
         
+        # Diagnose the output file
         consecutive_deltas = df_resampled['seconds_elapsed'].diff()
         avg_sampling_rate = np.mean(consecutive_deltas)
         avg_frequency = 1 / np.mean(consecutive_deltas)

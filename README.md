@@ -48,7 +48,7 @@ For more information on how to set up a transformation block, please head to Edg
     <tr>
       <td><a href="/merge-csv/">Merge CSV</a></td>
       <td>Merge CSV files on a given key</td>
-      <td>File</td>
+      <td>Data item</td>
       <td>Python</td>
       <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_merge-csv" target="_blank">luisomoreau/ei-transform_merge-csv</td>
     </tr>
