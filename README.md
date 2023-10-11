@@ -39,11 +39,11 @@ For more information on how to set up a transformation block, please head to Edg
       <td><a href="https://hub.docker.com/r/edgeimpulse/ei_transform_fetch-kaggle-dataset" target="_blank">edgeimpulse/ei_transform_fetch-kaggle-dataset:latest</a></td>
     </tr>
     <tr>
-      <td><a href="/create-graphs/">Create graphs</a></td>
+      <td><a href="/create-graphs-standalone/">Create graphs (Standalone)</a></td>
       <td>Generate a helper graph from sensor CSV</td>
       <td>Standalone</td>
       <td>Python</td>
-      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs" target="_blank">edgeimpulse/ei-transform_create-graphs</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs-standalone" target="_blank">edgeimpulse/ei-transform_create-graphs-standalone</td>
     </tr>
     <tr>
       <td><a href="/merge-csv/">Merge CSV</a></td>

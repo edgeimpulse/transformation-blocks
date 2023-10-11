@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Time column",
+        "type": "string",
+        "param": "time-column",
+        "value": "time",
+        "help": "Time column that will be used for the x-axis"
+    }
+]
