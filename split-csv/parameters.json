@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Split Interval (s)",
+        "type": "int",
+        "param": "split-interval",
+        "value": "",
+        "help": "Time interval in seconds for splitting the CSV"
+    },
+    {
+        "name": "Time column",
+        "type": "string",
+        "param": "time-column",
+        "value": "time",
+        "help": "Time column that will be used to split the CSV"
+    }
+]

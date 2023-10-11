@@ -22,42 +22,49 @@ For more information on how to set up a transformation block, please head to Edg
       <td>print <code>hello +name</code> on the transformation job logs</td>
       <td>Standalone</td>
       <td>Bash</td>
-      <td><a href="https://hub.docker.com/r/luisomoreau/hello_edge" target="_blank">luisomoreau/hello_edge:latest</a></td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_hello-edge" target="_blank">edgeimpulse/ei-transform_hello-edge:latest</a></td>
     </tr>
      <tr>
       <td><a href="/utils-access-data/">Utils - Access data</a></td>
       <td>Utility example to explain how to access data</td>
       <td>Standalone | Data item | File</td>
       <td>Python</td>
-      <td></td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_utils-access-data" target="_blank">edgeimpulse/ei-transform_utils-access-data:latest</a></td>
     </tr>
     <tr>
       <td><a href="/fetch-kaggle-dataset/">Fetch Kaggle Dataset</a></td>
       <td>Import a dataset hosted on Kaggle to your bucket</td>
       <td>Standalone</td>
       <td>Python</td>
-      <td><a href="https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset" target="_blank">luisomoreau/ei_fetch_kaggle_dataset:latest</a></td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei_transform_fetch-kaggle-dataset" target="_blank">edgeimpulse/ei_transform_fetch-kaggle-dataset:latest</a></td>
     </tr>
     <tr>
       <td><a href="/create-graphs/">Create graphs</a></td>
       <td>Generate a helper graph from sensor CSV</td>
       <td>Standalone</td>
       <td>Python</td>
-      <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_create-graphs" target="_blank">luisomoreau/ei-transform_create-graphs</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs" target="_blank">edgeimpulse/ei-transform_create-graphs</td>
     </tr>
     <tr>
       <td><a href="/merge-csv/">Merge CSV</a></td>
       <td>Merge CSV files on a given key</td>
       <td>Data item</td>
       <td>Python</td>
-      <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_merge-csv" target="_blank">luisomoreau/ei-transform_merge-csv</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_merge-csv" target="_blank">edgeimpulse/ei-transform_merge-csv</td>
     </tr>
     <tr>
       <td><a href="/resample-csv/">Resample CSV</a></td>
       <td>Upsample or downsample CSV files with a constant frequency</td>
       <td>File</td>
       <td>Python</td>
-      <td><a href="https://hub.docker.com/r/luisomoreau/ei-transform_resample-csv" target="_blank">luisomoreau/ei-transform_resample-csv</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_resample-csv" target="_blank">edgeimpulse/ei-transform_resample-csv</td>
+    </tr>
+    <tr>
+      <td><a href="/split-csv/">Split CSV</a></td>
+      <td>Split CSV files into smaller CSV files defined by a split interval</td>
+      <td>File</td>
+      <td>Python</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_split-csv" target="_blank">edgeimpulse/ei-transform_split-csv</td>
     </tr>
     
   </tbody>
