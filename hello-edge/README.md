@@ -24,4 +24,4 @@ Also, make sure to configure the [additional block parameters](https://docs.edge
 ]
 ```
 
-![setup](/assets/hello-edge/studio-create-transformation-hello-edge.png)
+![setup](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/hello-edge/studio-create-transformation-hello-edge.png?raw=true)

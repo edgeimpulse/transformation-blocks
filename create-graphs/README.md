@@ -2,7 +2,7 @@
 
 This transformation block generate graphs from sensor CSV files.
 
-![Create the job](/assets/create-graphs/create-transformation-job.png)
+![Create the job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/create-graphs/create-transformation-job.png?raw=true)
 
 ## Setup
 
@@ -56,6 +56,3 @@ Run the script:
 ```
 python3 transform.py --bucket_name ../dataset --sensor_name Accelerometer
 ```
-
-## Run job
-

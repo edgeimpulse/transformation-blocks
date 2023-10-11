@@ -11,6 +11,8 @@ build_and_push_image() {
     echo "Building Docker image for $dir..."
     docker build -t "${DOCKERHUB_USER}/ei-transform_${repo}" "$dir"
     docker push "${DOCKERHUB_USER}/ei-transform_${repo}"
+    # Optional - use docker CLI plugin to push README.md files as a DockerHub repo description
+    # docker pushrm "${DOCKERHUB_USER}/ei-transform_${repo}" -f "$dir/README.md"
 }
 
 # Iterate through your directory structure

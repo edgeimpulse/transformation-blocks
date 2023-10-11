@@ -2,7 +2,7 @@
 
 This transformation job example takes the CSV files as an input and merge them together.
 
-![Run job](/assets/merge-csv/run-merge-csv.png)
+![Run job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/merge-csv/run-merge-csv.png?raw=true)
 
 ## Setup
 

@@ -2,7 +2,7 @@
 
 This transformation job example takes an input csv file and resample it to a defined frequency.
 
-![Run job](/assets/resample-csv/run-resample-csv.png)
+![Run job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/resample-csv/run-resample-csv.png?raw=true)
 
 ## Setup
 

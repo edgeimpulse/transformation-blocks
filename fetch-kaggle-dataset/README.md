@@ -89,12 +89,12 @@ python3 fetch.py --kaggle_dataset owner/dataset-slug --bucket_name output
 
 6. Overview
 
-    ![Block overview](/assets/fetch-kaggle-dataset/fetch-kaggle-dataset-transformation-overview.png)
+    ![Block overview](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/fetch-kaggle-dataset/fetch-kaggle-dataset-transformation-overview.png?raw=true)
 
 ## Run job
 
-![Create the job](/assets/fetch-kaggle-dataset/create-transformation-job-2.png)
+![Create the job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/fetch-kaggle-dataset/create-transformation-job-2.png?raw=true)
 
 ## Additional info
 
-There is also a public image of this block: [luisomoreau/ei_fetch_kaggle_dataset:v1](https://hub.docker.com/r/luisomoreau/ei_fetch_kaggle_dataset)
+There is also a public image of this block: [edgeimpulse/ei-transform_fetch-kaggle-dataset:latest](https://hub.docker.com/r/edgeimpulse/ei-transform_fetch-kaggle-dataset)

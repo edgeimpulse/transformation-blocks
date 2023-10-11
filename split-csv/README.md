@@ -2,7 +2,7 @@
 
 This transformation job example takes an input CSV file and splits it into smaller CSV files based on a defined time interval.
 
-![Run job](/assets/split-csv/run-split-csv.png)
+![Run job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/split-csv/run-split-csv.png?raw=true)
 
 ## Setup
 
