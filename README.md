@@ -46,6 +46,13 @@ For more information on how to set up a transformation block, please head to Edg
       <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs-standalone" target="_blank">edgeimpulse/ei-transform_create-graphs-standalone</td>
     </tr>
     <tr>
+      <td><a href="/create-graphs-in-file/">Create graphs (in-file)</a></td>
+      <td>Generate a helper graph from sensor CSV</td>
+      <td>File</td>
+      <td>Python</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs-in-file" target="_blank">edgeimpulse/ei-transform_create-graphs-standalone-in-file</td>
+    </tr>
+    <tr>
       <td><a href="/merge-csv/">Merge CSV</a></td>
       <td>Merge CSV files on a given key</td>
       <td>Data item</td>
