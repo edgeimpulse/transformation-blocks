@@ -27,6 +27,25 @@ This transformation job example takes the CSV files as an input and merge them t
         "help": "CSV files to merge, separated by coma"
     },
     {
+        "name": "Keep all columns?",
+        "value": false,
+        "type": "boolean",
+        "param": "keep-all-col",
+        "help": "Keep all columns"
+    },
+    {
+        "name": "Columns",
+        "value": "x,y,z",
+        "type": "string",
+        "param": "columns",
+        "help": "Columns to keep, separated by comas",
+        "showIf": {
+            "parameter": "keep-all-col",
+            "operator": "eq",
+            "value": "false"
+        }
+    }
+    {
         "name": "Join method",
         "type": "select",
         "valid": [
@@ -71,5 +90,5 @@ pip3 install -r requirement.txt
 ```
 Run the script:
 ```
-python transform.py --in-directory ../dataset/Cycling-2023-09-14_06-33-47 --files Accelerometer.csv,Gyroscope.csv --out-directory output --key time --join outer --rename False
+python transform.py --in-directory ../dataset/Cycling-2023-09-14_06-33-47 --files Accelerometer.csv,Gyroscope.csv --out-directory output --key time --join outer --rename False --keep_all false --columns x,y,z
 ```

@@ -14,6 +14,25 @@
         "help": "CSV files to merge, separated by coma"
     },
     {
+        "name": "Keep all columns?",
+        "value": false,
+        "type": "boolean",
+        "param": "keep-all-col",
+        "help": "Keep all columns"
+    },
+    {
+        "name": "Columns",
+        "value": "x,y,z",
+        "type": "string",
+        "param": "columns",
+        "help": "Columns to keep, separated by comas",
+        "showIf": {
+            "parameter": "keep-all-col",
+            "operator": "eq",
+            "value": "false"
+        }
+    },
+    {
         "name": "Join method",
         "type": "select",
         "valid": [
