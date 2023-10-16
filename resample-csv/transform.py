@@ -21,7 +21,7 @@ def main():
     parser.add_argument('--resampling_mode', type=str, required=False, help="Resampling mode (default is mean)")
     parser.add_argument('--metadata', type=json.loads, required=False, help="Existing metadata")
 
-    args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
     print('--in-file:', args.in_file, flush=True)
     print('--out-directory:', args.out_directory, flush=True)
     print('--sampling_rate:', args.sampling_rate, flush=True)

@@ -30,7 +30,7 @@ This transformation job example takes the CSV files as an input and merge them t
         "name": "Keep all columns?",
         "value": false,
         "type": "boolean",
-        "param": "keep-all-col",
+        "param": "keep_all",
         "help": "Keep all columns"
     },
     {
@@ -40,11 +40,11 @@ This transformation job example takes the CSV files as an input and merge them t
         "param": "columns",
         "help": "Columns to keep, separated by comas",
         "showIf": {
-            "parameter": "keep-all-col",
+            "parameter": "keep_all",
             "operator": "eq",
             "value": "false"
         }
-    }
+    },
     {
         "name": "Join method",
         "type": "select",

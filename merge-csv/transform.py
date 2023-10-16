@@ -24,7 +24,7 @@ def main():
     parser.add_argument('--columns', type=str, required=False, help="Columns to keep, separated by commas")
     parser.add_argument('--metadata', type=json.loads, required=False, help="Existing metadata")
 
-    args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
     print('--in-directory:', args.in_directory, flush=True)
     print('--out-directory:', args.out_directory, flush=True)
     print('--files:', args.files, flush=True)
