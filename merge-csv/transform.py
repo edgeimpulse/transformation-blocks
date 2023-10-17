@@ -87,6 +87,9 @@ def main():
                                 columns_to_keep = args.columns.replace(' ', '').split(',')
                                 columns_to_keep = [col.strip() for col in columns_to_keep]
 
+                                # Remove columns that do not exist in the DataFrame
+                                columns_to_keep = [col for col in columns_to_keep if col in df.columns]
+
                                 if args.key not in columns_to_keep:
                                     columns_to_keep = [args.key] + columns_to_keep
 

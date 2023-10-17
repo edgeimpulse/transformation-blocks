@@ -31,7 +31,7 @@ pip3 install -r requirement.txt
 ```
 
 ```
-python3 transform.py --in-file input/Accelerometer.csv --out-directory output
+python3 transform.py --in-file input/Accelerometer.csv --out-directory output --time-column time
 ```
 
 The output graph will look like the following:

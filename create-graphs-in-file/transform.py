@@ -27,7 +27,7 @@ if args.in_file:
         df.index = pd.to_datetime(df[args.time_column], unit='ns')
 
         # Get a list of all columns except 'time' and 'seconds_elapsed'
-        columns_to_plot = [col for col in df.columns if col not in [args.time_column, 'seconds_elapsed']]
+        columns_to_plot = [col for col in df.columns if col not in [args.time_column]]
 
         # Create subplots for each selected column
         fig, axes = plt.subplots(nrows=len(columns_to_plot), ncols=1, figsize=(12, 6 * len(columns_to_plot)))

@@ -2,3 +2,4 @@
 .ei-block-config
 *.zip
 dataset/
+.DS_Store
