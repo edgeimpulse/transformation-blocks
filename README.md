@@ -53,6 +53,13 @@ For more information on how to set up a transformation block, please head to Edg
       <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs-in-file" target="_blank">edgeimpulse/ei-transform_create-graphs-standalone-in-file</td>
     </tr>
     <tr>
+      <td><a href="/check-file-exist/">Check file existance</a></td>
+      <td>Add ei_check metadata on file existance</td>
+      <td>Data item</td>
+      <td>Python</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_check-files-exist" target="_blank">edgeimpulse/ei-transform_check-files-exist</td>
+    </tr>
+    <tr>
       <td><a href="/merge-csv/">Merge CSV</a></td>
       <td>Merge CSV files on a given key</td>
       <td>Data item</td>

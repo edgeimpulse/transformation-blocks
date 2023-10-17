@@ -1,0 +1,9 @@
+[
+    {
+        "name": "CSV files",
+        "type": "string",
+        "param": "files",
+        "value": "",
+        "help": "CSV files to merge, separated by coma"
+    }
+]
