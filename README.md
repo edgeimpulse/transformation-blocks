@@ -88,7 +88,7 @@ To use the examples, a README.md instruction file will be provided inside the ex
 
 If you want to quickly test the transformation blocks, head to your Edge Impulse organizaton, go to **Custom blocks**->**Transformation** and click on **+ Add new transformation block**:
 
-Replace the **Docker Container** by the one provided in the example below, the operation type and the optional parameters (check the examples README.md instruction to set the parameters):
+Replace the **Docker Container** by the one provided in the example above, the operation type and the optional parameters (check the examples README.md instruction to set the parameters):
 
 ![Add new transformation](assets/studio-create-transformation-hello-edge.png).
 
