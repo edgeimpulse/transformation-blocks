@@ -86,6 +86,12 @@ For more information on how to set up a transformation block, please head to Edg
 
 To use the examples, a README.md instruction file will be provided inside the example repositories. Sometimes, a public docker image will also be provided to quickly test so you don't need to import it and clone the entire repository.
 
+If you want to quickly test the transformation blocks, head to your Edge Impulse organizaton, go to **Custom blocks**->**Transformation** and click on **+ Add new transformation block**:
+
+Replace the **Docker Container** by the one provided in the example below, the operation type and the optional parameters (check the examples README.md instruction to set the parameters):
+
+![Add new transformation](assets/studio-create-transformation-hello-edge.png).
+
 To modify the code and push the blocks to your organization, you will need to use [Edge Impulse CLI](https://docs.edgeimpulse.com/docs/tools/edge-impulse-cli).
 
 1. Clone this repository:

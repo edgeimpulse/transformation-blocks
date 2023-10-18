@@ -38,8 +38,8 @@ The output graph will look like the following:
 
 * Accelerometer.csv:
 
-![Accelerometer graph](/assets/create-graphs/Accelerometer.graph.png)
+![Accelerometer graph](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/create-graphs/Accelerometer.graph.png?raw=true)
 
 * Location.csv:
 
-![Location graph](assets/../../assets/create-graphs/Location.graph.png)
+![Location graph](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/create-graphs/Location.graph.png?raw=true)
