@@ -67,6 +67,13 @@ For more information on how to set up a transformation block, please head to Edg
       <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_merge-csv" target="_blank">edgeimpulse/ei-transform_merge-csv</td>
     </tr>
     <tr>
+      <td><a href="/merge-audio-time-series-csv/">Merge Audio and CSV</a></td>
+      <td>Merge audio file and time-series csv</td>
+      <td>Data item</td>
+      <td>Python</td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_merge-audio-time-series-csv" target="_blank">edgeimpulse/ei-transform_merge-audio-time-series-csv</td>
+    </tr>
+    <tr>
       <td><a href="/resample-csv/">Resample CSV</a></td>
       <td>Upsample or downsample CSV files with a constant frequency</td>
       <td>File</td>
