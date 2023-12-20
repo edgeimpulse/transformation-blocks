@@ -1,8 +1,8 @@
-# Resample CSV file
+# Create graphs from CSV
 
-This transformation job example takes an input csv file and resample it to a defined frequency.
+This transformation block generates graphs from sensor CSV files.
 
-![Run job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/resample-csv/run-resample-csv.png?raw=true)
+![Run job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/create-graphs/run-job.png?raw=true)
 
 ## Setup
 

@@ -1,6 +1,6 @@
 # Create graphs from sensors CSV file (Python)
 
-This transformation block generate graphs from sensor CSV files.
+This transformation block generates graphs from sensor CSV files.
 
 ![Create the job](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/create-graphs/create-transformation-job.png?raw=true)
 
