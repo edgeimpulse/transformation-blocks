@@ -53,7 +53,7 @@ For more information on how to set up a transformation block, please head to Edg
       <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_create-graphs-in-file" target="_blank">edgeimpulse/ei-transform_create-graphs-standalone-in-file</td>
     </tr>
     <tr>
-      <td><a href="/check-file-exist/">Check file existance</a></td>
+      <td><a href="/check-files-exist/">Check file existance</a></td>
       <td>Add ei_check metadata on file existance</td>
       <td>Data item</td>
       <td>Python</td>
