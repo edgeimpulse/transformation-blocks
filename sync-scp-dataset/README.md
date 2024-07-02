@@ -6,13 +6,13 @@ This transformation block fetch files using scp and store it in your [organizati
 
 `--remote-host` Remote host to copy files from
 
-`--remote-port` Bucket to store the dataset
+`--remote-port` Remote port to use
 
 `--remote-directory` Remote directory to fetch
 
-`--bucket-name` Bucket to store the dataset
+`--bucket-name` Bucket to store the files
 
-`--bucket-prefix` Output bucket prefix to store the data
+`--bucket-prefix` Output bucket prefix to store the files
 
 ### SSH credentials
 
