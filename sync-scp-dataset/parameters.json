@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Remote Host",
+        "type": "string",
+        "param": "remote-host",
+        "value": "",
+        "help": "Remote host to copy files from"
+    },
+    {
+        "name": "Remote Port",
+        "type": "int",
+        "param": "remote-port",
+        "value": 22,
+        "help": "Remote port to use"
+    },
+    {
+        "name": "Remote Directory",
+        "type": "string",
+        "param": "remote-directory",
+        "value": "/home/dataset/",
+        "help": "Remote directory to fetch"
+    },
+    {
+        "name": "Output bucket",
+        "type": "bucket",
+        "param": "bucket-name",
+        "value": "",
+        "help": "The bucket where you will store the fetched dataset"
+    },
+    {
+        "name": "Output bucket path",
+        "value": "scp-files/",
+        "type": "string",
+        "param": "bucket-prefix",
+        "help": "The output bucket prefix to store the data"
+    }
+]
