@@ -78,7 +78,7 @@ As the `--bucket-name` parameter is not present, files will be written to the `.
 
     In the Organization -> Data -> Datasets section, click on _Add new dataset_:
 
-    ![Create dataset](/assets/sync-scp-dataset/create-dataset.png)
+    ![Create dataset](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/sync-scp-dataset/create-dataset.png?raw=true)
 
     Data from the SCP server will be stored in this dataset.
 
@@ -88,6 +88,6 @@ In the Organization -> Data transformation section, click on _Create job_.
 
 Fill in the different parameters, and start the transformation job. Make sure the _output bucket path_ matches the _bucket path_ from the previous dataset section (ie: `scp-files/`)
 
-![Create dataset](/assets/sync-scp-dataset/create-job.png)
+![Create dataset](https://github.com/edgeimpulse/transformation-blocks/blob/main/assets/sync-scp-dataset/create-job.png?raw=true)
 
 Once the job is finished, your files will appear in the dataset created in the previous section.
