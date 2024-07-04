@@ -32,7 +32,7 @@ This transformation job example takes a CSV file as an input and an audio file a
 ## Test the transformation block locally
 
 You can try this transformation with this dataset, using the `/raw` folder:
-[Coffee Machine Stages](https://cdn.edgeimpulse.com/datasets/coffee-machine-stages.zip)
+[Coffee Machine Stages](https://cdn.edgeimpulse.com/datasets/coffee_machine_stages.zip)
 
 Install the dependencies:
 ```
