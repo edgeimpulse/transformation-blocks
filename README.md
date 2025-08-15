@@ -92,7 +92,7 @@ For more information on how to set up a transformation block, please head to Edg
       <td>Fetch files using scp and sync with organization dataset</td>
       <td>Standalone</td>
       <td>Python</td>
-      <td><td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_sync-scp-dataset" target="_blank">edgeimpulse/ei-transform_sync-scp-dataset</td></td>
+      <td><a href="https://hub.docker.com/r/edgeimpulse/ei-transform_sync-scp-dataset" target="_blank">edgeimpulse/ei-transform_sync-scp-dataset</td>
     </tr>
   </tbody>
 </table>
